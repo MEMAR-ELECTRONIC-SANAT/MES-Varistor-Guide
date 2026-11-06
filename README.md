@@ -25,8 +25,8 @@ Comprehensive guide to varistor selection and application - راهنمای جا�
 
 ### دریافت فایل آموزشی
 
-📘 [دانلود راهنمای جامع انتخاب و کاربرد وریستور (PDF)]https://raw.githubusercontent.com/MEMAR-ELECTRONIC-SANAT/Varistor-Guide/main/MES-Varistor-Guide-FA.pdf
-
+📘 [دانلود راهنمای جامع انتخاب و کاربرد وریستور (PDF)
+https://raw.githubusercontent.com/MEMAR-ELECTRONIC-SANAT/Varistor-Guide/main/MES-Varistor-Guide-FA%20v1_4.pdf
 ---
 **معمار الکترونیک صنعت
 **MEMAR ELECTRONIC SANAT (MES)**
