@@ -1,5 +1,11 @@
 # راهنمای جامع انتخاب و کاربرد وریستور | Varistor Guide
 
+<p align="center">
+  <strong>انتخاب زبان / Language:</strong>
+  <a href="README.md">🇮🇷 فارسی</a> |
+  <a href="README_EN.md">🇬🇧 English</a>
+</p>
+
 ## MEMAR ELECTRONIC SANAT (MES)
 
 **از پارامترهای دیتاشیت تا طراحی عملی حفاظت**
@@ -19,9 +25,9 @@
 
 ## دریافت فایل آموزشی
 
-📘 [دانلود راهنمای وریستور نسخه فارسی (PDF)](https://raw.githubusercontent.com/MEMAR-ELECTRONIC-SANAT/MES-Varistor-Guide/main/MES-Varistor-Guide-FA.pdf)
+📘 [دانلود راهنمای وریستور نسخه فارسی (PDF)](./MES-Varistor-Guide-FA%20v1_4.pdf)
 
-📘 [دانلود راهنمای وریستور نسخه انگلیسی (PDF)](https://raw.githubusercontent.com/MEMAR-ELECTRONIC-SANAT/MES-Varistor-Guide/main/MES-Varistor-Guide-EN.pdf)
+📘 [دانلود راهنمای وریستور نسخه انگلیسی (PDF)](./MES-Varistor-Guide-EN%20v1_4.pdf)
 
 ---
 
@@ -59,12 +65,15 @@
 
 ---
 
-**معمار الکترونیک صنعت**  
-**MEMAR ELECTRONIC SANAT (MES)**
+## تهیه و تدوین
+
+**معمار الکترونیک صنعت**\\
+ **MEMAR ELECTRONIC SANAT (MES)**
 
 همراه شما در مسیر طراحی و ساخت مدارهای مطمئن
 
-- کانال تلگرام: https://t.me/Memar_Electronic
-- پیج اینستاگرام: https://www.instagram.com/Memar.Electronic
+طراحی و توسعه مدارهای الکترونیکی، PCB، سیستم‌های embedded و ابزارهای پیکربندی میکروکنترلر.
 
-[مشاهده سایر آموزش‌ها](https://github.com/MEMAR-ELECTRONIC-SANAT)
+- کانال تلگرام: [https://t.me/Memar_Electronic](https://t.me/Memar_Electronic)
+- پیج اینستاگرام: [https://www.instagram.com/Memar.Electronic](https://www.instagram.com/Memar.Electronic)
+- GitHub: [MEMAR-ELECTRONIC-SANAT](https://github.com/MEMAR-ELECTRONIC-SANAT)
