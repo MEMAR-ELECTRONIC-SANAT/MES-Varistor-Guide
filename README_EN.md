@@ -1,5 +1,11 @@
 # Varistor Selection and Application Guide
 
+<p align="center">
+  <strong>Language:</strong>
+  <a href="README.md">🇮🇷 فارسی</a> |
+  <a href="README_EN.md">🇬🇧 English</a>
+</p>
+
 ## MEMAR ELECTRONIC SANAT (MES)
 
 **From Datasheet Parameters to Practical Overvoltage Protection Design**
