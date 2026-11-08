@@ -36,6 +36,12 @@ Choose the PDF version you prefer:
 - [**Download the English Varistor Guide (PDF)**](./MES-Varistor-Guide-EN%20v1_4.pdf)
 - [**Download the Persian Varistor Guide (PDF)**](./MES-Varistor-Guide-FA%20v1_4.pdf)
 
+### Interactive HTML Guide
+
+🌐 [**Open the Persian–English Varistor Guide (HTML v1.7)**](./MES-Varistor-Guide-FA-EN%20v1_7.html) — View the interactive guide in your browser.
+
+
+
 ## Key Selection Considerations
 
 A varistor should not be selected based on its nominal voltage or physical size alone. At minimum, evaluate these datasheet parameters in relation to the actual circuit:
