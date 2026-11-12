@@ -1,6 +1,10 @@
 # راهنمای جامع انتخاب و کاربرد وریستور | Varistor Guide
 
 <p align="center">
+  <img src="Images/GitHub-Assets/MES-Hero-Banner.svg" width="100%" alt="MEMAR ELECTRONIC SANAT — MES">
+</p>
+
+<p align="center">
   <strong>انتخاب زبان / Language:</strong>
   <a href="README.md">🇮🇷 فارسی</a> |
   <a href="README_EN.md">🇬🇧 English</a>
@@ -12,6 +16,11 @@
 
 در این راهنمای آموزشی، با ساختار و عملکرد وریستور، منحنی مشخصه جریان–ولتاژ (I–V)، پارامترهای کلیدی دیتاشیت و اصول انتخاب وریستور مناسب برای حفاظت تجهیزات الکترونیکی آشنا می‌شویم.
 
+
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Section-Header.svg" width="100%" alt="Varistor Guide — Technical Topics">
+</p>
+
 ## سرفصل‌های آموزشی
 
 - ساختار و نحوه عملکرد وریستور
@@ -22,6 +31,11 @@
 - بررسی ابعاد و قطر وریستور
 - مثال‌های عددی و انتخاب عملی قطعه
 - اصول استفاده از وریستور در مدارهای حفاظتی
+
+
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Project-Card.svg" width="100%" alt="MES technical guide and project resources">
+</p>
 
 ## دریافت فایل آموزشی
 
@@ -73,6 +87,11 @@
 
 ![MES Divider](Images/MES-Divider.svg)
 
+
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Status-Strip.svg" width="100%" alt="MES Engineering Workspace">
+</p>
+
 ## تهیه و تدوین
 
 **معمار الکترونیک صنعت**\\
@@ -85,3 +104,8 @@
 - کانال تلگرام: [https://t.me/Memar_Electronic](https://t.me/Memar_Electronic)
 - پیج اینستاگرام: [https://www.instagram.com/Memar.Electronic](https://www.instagram.com/Memar.Electronic)
 - GitHub: [MEMAR-ELECTRONIC-SANAT](https://github.com/MEMAR-ELECTRONIC-SANAT)
+
+
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Thank-You-Footer.svg" width="100%" alt="Thank you for visiting MES">
+</p>
