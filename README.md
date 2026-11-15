@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/GitHub-Assets/MES_Animated_Logo_640x480.svg" width="360" alt="MES Animated Logo">
+
 </p>
 
 # راهنمای جامع انتخاب و کاربرد وریستور | Varistor Guide
@@ -20,7 +20,6 @@
 
 در این راهنمای آموزشی، با ساختار و عملکرد وریستور، منحنی مشخصه جریان–ولتاژ (I–V)، پارامترهای کلیدی دیتاشیت و اصول انتخاب وریستور مناسب برای حفاظت تجهیزات الکترونیکی آشنا می‌شویم.
 
-
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Section-Header.svg" width="100%" alt="Varistor Guide — Technical Topics">
 </p>
@@ -36,7 +35,6 @@
 - مثال‌های عددی و انتخاب عملی قطعه
 - اصول استفاده از وریستور در مدارهای حفاظتی
 
-
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Project-Card.svg" width="100%" alt="MES technical guide and project resources">
 </p>
@@ -50,8 +48,6 @@
 ### مشاهده نسخه HTML تعاملی
 
 🌐 [**اجرای راهنمای وریستور فارسی و انگلیسی (HTML نسخه 1.7)**](./MES-Varistor-Guide-FA-EN%20v1_7.html) — فایل را در مرورگر باز کنید.
-
-
 
 ---
 
@@ -93,7 +89,6 @@
   <img src="Images/GitHub-Assets/MES-Divider.svg" width="100%" alt="MES Divider">
 </p>
 
-
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Status-Strip.svg" width="100%" alt="MES Engineering Workspace">
 </p>
@@ -111,7 +106,8 @@
 - پیج اینستاگرام: [https://www.instagram.com/Memar.Electronic](https://www.instagram.com/Memar.Electronic)
 - GitHub: [MEMAR-ELECTRONIC-SANAT](https://github.com/MEMAR-ELECTRONIC-SANAT)
 
-
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Thank-You-Footer.svg" width="100%" alt="Thank you for visiting MES">
 </p>
+
+![MES Animated Logo](Images/GitHub-Assets/MES_Animated_Logo_640x480.svg)
