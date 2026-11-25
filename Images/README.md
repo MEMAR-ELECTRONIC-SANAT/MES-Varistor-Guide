@@ -29,49 +29,77 @@ Images/
 
 ## تصاویر آموزشی وریستور | Varistor Educational Images
 
-در ریشه این پوشه، یک تصویر از نسخه فارسی راهنما و شش اینفوگرافیک آموزشی قرار دارد. برای مشاهده هر تصویر در اندازه اصلی، روی پیش‌نمایش آن کلیک کنید.
+در ریشه این پوشه، یک تصویر از نسخه فارسی راهنما و شش اینفوگرافیک آموزشی قرار دارد. برای مشاهده هر تصویر در اندازه اصلی، روی پیش‌نمایش کوچک و وسط‌چین آن کلیک کنید.
 
-The folder root contains the Persian guide cover and six educational infographics. Click any preview to open the full-size image.
+The folder root contains the Persian guide cover and six educational infographics. The previews are centered and reduced in size; click any preview to open the full-size image.
 
 ### 1. نسخه تصویری راهنمای فارسی | Persian Guide Cover
 
-[![جلد راهنمای فارسی وریستور](MES-Varistor-Guide-FA%20v1_4.jpg)](MES-Varistor-Guide-FA%20v1_4.jpg)
+<p align="center">
+  <a href="MES-Varistor-Guide-FA%20v1_4.jpg">
+    <img src="MES-Varistor-Guide-FA%20v1_4.jpg" width="45%" alt="جلد راهنمای فارسی وریستور">
+  </a>
+</p>
 
 تصویر معرفی نسخه فارسی راهنمای وریستور، نسخه 1.4.
 
 ### 2. معرفی وریستور و حفاظت در برابر اضافه‌ولتاژ | Varistor and Overvoltage Protection
 
-[![معرفی وریستور و حفاظت در برابر اضافه‌ولتاژ](Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg)](Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg)
+<p align="center">
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="42%" alt="معرفی وریستور و حفاظت در برابر اضافه‌ولتاژ">
+  </a>
+</p>
 
 نمای کلی موضوع و نقش وریستور در حفاظت تجهیزات در برابر گذراهای اضافه‌ولتاژ.
 
 ### 3. ساختار و عملکرد وریستور | Structure and Operating Principle
 
-[![ساختار و عملکرد وریستور](Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg)](Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg)
+<p align="center">
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="42%" alt="ساختار و عملکرد وریستور">
+  </a>
+</p>
 
 آشنایی با ساختار و نحوه عملکرد وریستور و رفتار غیرخطی آن.
 
 ### 4. پارامترهای دیتاشیت | Datasheet Parameters
 
-[![پارامترهای دیتاشیت وریستور](Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg)](Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg)
+<p align="center">
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="42%" alt="پارامترهای دیتاشیت وریستور">
+  </a>
+</p>
 
 مروری بر مشخصات مهم دیتاشیت که در ارزیابی و انتخاب قطعه باید بررسی شوند.
 
 ### 5. ولتاژ کاری و ولتاژ کلمپینگ | Working Voltage and Clamping Voltage
 
-[![ولتاژ کاری و ولتاژ کلمپینگ](Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg)](Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg)
+<p align="center">
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="42%" alt="ولتاژ کاری و ولتاژ کلمپینگ">
+  </a>
+</p>
 
 توضیح تفاوت ولتاژ کاری مجاز و ولتاژ کلمپینگ و اهمیت آن‌ها در طراحی حفاظت.
 
 ### 6. جریان ضربه‌ای و انرژی قابل جذب | Surge Current and Energy Rating
 
-[![جریان ضربه‌ای و انرژی قابل جذب](Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg)](Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg)
+<p align="center">
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="42%" alt="جریان ضربه‌ای و انرژی قابل جذب">
+  </a>
+</p>
 
 معرفی ظرفیت تحمل جریان ضربه‌ای و انرژی قابل جذب؛ دو معیار مهم در بررسی توانایی حفاظتی وریستور.
 
 ### 7. ابعاد و قطر وریستور | Varistor Dimensions and Disc Diameter
 
-[![ابعاد و قطر وریستور](Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg)](Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg)
+<p align="center">
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="42%" alt="ابعاد و قطر وریستور">
+  </a>
+</p>
 
 بررسی نقش ابعاد و قطر دیسک در انتخاب قطعه و مقایسه گزینه‌های مختلف.
 
@@ -118,17 +146,19 @@ Because this README is located inside `Images/`, its image links are relative to
 
 ## تصاویر و دیاگرام‌های راهنما
 
-این بخش، پیش‌نمایش تصویری مجموعه اینفوگرافیک‌های آموزشی وریستور را در یکجا نمایش می‌دهد.
+این بخش، پیش‌نمایش فشرده و وسط‌چین مجموعه اینفوگرافیک‌های آموزشی وریستور را در یکجا نمایش می‌دهد. برای مشاهده هر تصویر با وضوح و اندازه اصلی، روی آن کلیک کنید.
+
+This section provides a compact, centered overview of the six educational infographics. Click any thumbnail to view the original image.
 
 <p align="center">
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="32%" alt="Varistor infographic 00"></a>
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="32%" alt="Varistor infographic 01"></a>
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="32%" alt="Varistor infographic 02"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="24%" alt="Varistor infographic 00"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="24%" alt="Varistor infographic 01"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="24%" alt="Varistor infographic 02"></a>
 </p>
 <p align="center">
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="32%" alt="Varistor infographic 03"></a>
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="32%" alt="Varistor infographic 04"></a>
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="32%" alt="Varistor infographic 05"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="24%" alt="Varistor infographic 03"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="24%" alt="Varistor infographic 04"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="24%" alt="Varistor infographic 05"></a>
 </p>
 
 ---
@@ -146,5 +176,5 @@ Because this README is located inside `Images/`, its image links are relative to
 - GitHub: [MEMAR-ELECTRONIC-SANAT](https://github.com/MEMAR-ELECTRONIC-SANAT)
 
 <p align="center">
-  <img src="GitHub-Assets/MES_Animated_Logo_640x480.svg" width="140" alt="MES Animated Logo">
+  <img src="GitHub-Assets/MES_Animated_Logo_640x480.svg" width="110" alt="MES Animated Logo">
 </p>
