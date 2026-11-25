@@ -1,113 +1,97 @@
-<p align="center">
-  <img src="Images/GitHub-Assets/MES_Animated_Logo_640x480.svg" width="360" alt="MES Animated Logo">
-</p>
-
 # Varistor Selection and Application Guide
 
 <p align="center">
-  <strong>Language:</strong>
-  <a href="README.md">🇮🇷 فارسی</a> |
-  <a href="README_EN.md">🇬🇧 English</a>
+  <img src="Images/GitHub-Assets/MES-Hero-Banner.svg" width="100%" alt="MEMAR ELECTRONIC SANAT — MES">
 </p>
 
-## MEMAR ELECTRONIC SANAT (MES)
+<p align="center">
+  <strong>Language / 语言:</strong><br>
+  <a href="README.md">🇮🇷 فارسی</a> |
+  <a href="README_EN.md">🇬🇧 English</a> |
+  <a href="README_ZH.md">🇨🇳 简体中文</a>
+</p>
+
+## About This Guide
 
 **From Datasheet Parameters to Practical Overvoltage Protection Design**
 
-This repository provides an educational guide to Metal Oxide Varistors (MOVs), commonly known as varistors, and their use in electronic protection circuits. It introduces the operating principle of a varistor, explains its voltage-current characteristics, and describes the key datasheet parameters that should be considered when selecting a suitable component.
+This repository introduces varistors, with a focus on **Metal-Oxide Varistors (MOVs)**, their internal structure, operating physics and use in transient-overvoltage protection circuits. It is intended for electronics engineers, circuit designers, students and makers who need to understand how to evaluate and apply varistors.
 
-The material is intended to help engineers, electronics designers, students, and makers understand how to evaluate a varistor for a specific application.
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Section-Header.svg" width="90%" alt="Varistor Guide Topics">
+</p>
 
-## Educational Topics
+## Guide Contents
 
-The guide covers the following subjects:
+1. What a varistor is and how it protects a circuit
+2. MOV construction and the physics of zinc-oxide (ZnO) grains and grain boundaries
+3. Voltage-current (V–I) characteristic and operating regions
+4. Important datasheet parameters and how to interpret them
+5. Varistor technologies and comparison of MOV, TVS and GDT devices
+6. Applications and protection-circuit implementation
+7. Four key selection criteria: continuous operating voltage, clamping voltage, surge current and energy
+8. A practical mains-voltage selection example
+9. Suggested models for common DC voltages and 380 V three-phase systems
+10. Summary, glossary and safety notes
 
-- Varistor structure and operating principle
-- Voltage-current (I–V) characteristic curve
-- Understanding and interpreting varistor datasheet parameters
-- Maximum continuous operating voltage
-- Varistor voltage and clamping voltage
-- Peak surge current capability
-- Energy absorption rating
-- Varistor disc diameter and physical dimensions
-- Numerical examples and practical component selection
-- Application principles for overvoltage and transient protection
+## Documentation Downloads
 
-## Download the Guide
+- 📘 [Download the Persian Varistor Guide — PDF, Version 1.4](./MES-Varistor-Guide-FA%20v1_4.pdf)
+- 🖼️ [Browse educational images and infographics](./Images/README.md)
+- 🎨 [Browse MES GitHub graphic assets](./Images/GitHub-Assets/README.md)
 
-Choose the PDF version you prefer:
+> **File availability:** The Persian PDF is currently present in the repository's main branch. The English PDF is not yet stored in this repository, so a download link is intentionally not shown here.
 
-- [**Download the English Varistor Guide (PDF)**](./MES-Varistor-Guide-EN%20v1_4.pdf)
-- [**Download the Persian Varistor Guide (PDF)**](./MES-Varistor-Guide-FA%20v1_4.pdf)
+## Four Key Varistor Selection Parameters
 
-### Interactive HTML Guide
-
-🌐 [**Open the Persian–English Varistor Guide (HTML v1.7)**](./MES-Varistor-Guide-FA-EN%20v1_7.html) — View the interactive guide in your browser.
-
-
-
-## Key Selection Considerations
-
-A varistor should not be selected based on its nominal voltage or physical size alone. At minimum, evaluate these datasheet parameters in relation to the actual circuit:
-
-1. **Maximum continuous operating voltage:** Ensure that the rated AC or DC operating voltage is appropriate for the circuit's normal voltage, including expected tolerances.
-2. **Varistor voltage:** Check the specified varistor voltage and its test conditions.
-3. **Clamping voltage:** Verify that the voltage appearing across the varistor under the specified surge current is low enough for the protected equipment.
-4. **Peak surge current:** Confirm that the component can withstand the expected transient current and waveform.
-5. **Energy rating:** Check the permitted energy absorption for the relevant pulse conditions.
-6. **Physical size and thermal conditions:** Consider disc dimensions, spacing, ambient temperature, and the expected repetition of surge events.
-
-The ratings in a datasheet are specified under particular test conditions. Values measured using different surge waveforms or test currents should not be compared directly without checking those conditions.
-
-## Educational Images
-
-The repository includes a Persian infographic series illustrating varistor protection, operating principles, datasheet parameters, voltage ratings, surge current, energy absorption, and component dimensions.
-
-### Varistor protection infographic
-
-[![Varistor protection infographic](./Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg)](./Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg)
-
-[Open the complete Persian guide infographic](./Images/MES-Varistor-Guide-FA%20v1_4.jpg)
-
-Additional images are available in the [Images directory](./Images/).
-
-## Important Design Notes
-
-- A varistor is a component for transient overvoltage suppression; it does not regulate the normal supply voltage.
-- Select the maximum continuous operating voltage with sufficient margin for the actual supply voltage and its tolerances.
-- The clamping voltage depends on the surge current and waveform. It is not a fixed voltage under all operating conditions.
-- Consider coordination with upstream fuses or other overcurrent protection. A varistor can degrade or fail after repeated or severe surge events.
-- For mains-connected equipment, observe the applicable safety standards, creepage and clearance requirements, thermal design, and fire-protection requirements.
-- Always consult the latest datasheet of the exact part number before finalizing a design. The examples in an educational guide do not replace component-specific verification or safety assessment.
-
-## Repository Contents
-
-| File or folder | Description |
+| Parameter | Meaning and selection guidance |
 |---|---|
-| `MES-Varistor-Guide-EN v1_4.pdf` | English educational guide |
-| `MES-Varistor-Guide-FA v1_4.pdf` | Persian educational guide |
-| `Images/` | Infographics and visual learning materials |
-| `README.md` | Persian repository overview |
-| `README_EN.md` | English repository overview |
+| **MCOV — Maximum Continuous Operating Voltage** | Must exceed the maximum normal circuit voltage, accounting for supply tolerance and operating conditions. |
+| **Clamping Voltage (V₍C₎)** | The residual voltage across the MOV while surge current flows. It must be compatible with the withstand voltage of the protected equipment. |
+| **Peak Surge Current (Iₚₑₐₖ)** | Must exceed the expected surge current at the installation point for the applicable test waveform. |
+| **Energy Rating (J)** | Must be suitable for the expected transient energy, waveform and repetition rate. |
 
-## Feedback and Further Resources
+Also check the varistor voltage at its specified test current (for example, V₁mA), capacitance, disc dimensions, ambient temperature, insulation clearances and coordination with a fuse or thermal disconnect.
 
-For more electronics design and educational resources, visit the links below or explore the other repositories published by MEMAR ELECTRONIC SANAT.
+## Design and Safety Notes
 
-- [GitHub Repositories](https://github.com/MEMAR-ELECTRONIC-SANAT)
-- [WCH and Embedded Electronics Resources](https://github.com/MEMAR-ELECTRONIC-SANAT)
+- A varistor is generally connected **in parallel with the protected input or load**.
+- Clamping voltage is not a fixed value independent of current; it depends on surge current and waveform.
+- For mains-connected equipment, coordinate the MOV with a fuse or thermal disconnect. An overstressed MOV may fail short-circuit and overheat.
+- Select components using the exact manufacturer datasheet and part number. Ratings measured under different waveforms or test conditions must not be compared directly.
+- Lightning and high-energy transient environments may require coordinated multi-stage protection using MOV, TVS and GDT devices.
+- Examples and suggested models in an educational guide do not replace product safety assessment, applicable standards or verification of the final component datasheet.
 
----
+## Educational Images and Diagrams
 
-## تهیه و تدوین
+The educational infographics currently available in this repository are in Persian. Open the [Images directory README](./Images/README.md) to browse the previews and access the original files.
 
-**معمار الکترونیک صنعت**\\
- **MEMAR ELECTRONIC SANAT (MES)**
+<p align="center">
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="30%" alt="Varistor introduction"></a>
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="30%" alt="MOV structure and operation"></a>
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="30%" alt="Datasheet parameters"></a>
+</p>
+<p align="center">
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="30%" alt="Operating and clamping voltage"></a>
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="30%" alt="Surge current and energy"></a>
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="30%" alt="Varistor dimensions"></a>
+</p>
 
-همراه شما در مسیر طراحی و ساخت مدارهای مطمئن
+<p align="center">
+  <img src="Images/GitHub-Assets/MES-Divider.svg" width="100%" alt="MES Divider">
+</p>
 
-طراحی و توسعه مدارهای الکترونیکی، PCB، سیستم‌های embedded و ابزارهای پیکربندی میکروکنترلر.
+## Prepared and Published by
 
-- کانال تلگرام: [https://t.me/Memar_Electronic](https://t.me/Memar_Electronic)
-- پیج اینستاگرام: [https://www.instagram.com/Memar.Electronic](https://www.instagram.com/Memar.Electronic)
+**معمار الکترونیک صنعت**  
+**MEMAR ELECTRONIC SANAT (MES)**
+
+*Your Partner in Designing and Building Reliable Electronic Circuits*
+
+- Telegram: [Memar Electronic](https://t.me/Memar_Electronic)
+- Instagram: [Memar Electronic](https://www.instagram.com/Memar.Electronic)
 - GitHub: [MEMAR-ELECTRONIC-SANAT](https://github.com/MEMAR-ELECTRONIC-SANAT)
+
+<p align="center">
+  <img src="Images/GitHub-Assets/MES_Animated_Logo_640x480.svg" width="120" alt="MES Animated Logo">
+</p>
