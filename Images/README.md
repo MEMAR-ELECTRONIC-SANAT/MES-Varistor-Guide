@@ -1,8 +1,16 @@
 # تصاویر راهنمای وریستور | Varistor Guide Images
 
-این پوشه شامل تصاویر آموزشی راهنمای انتخاب و کاربرد وریستور و فایل‌های گرافیکی اختصاصی برند **معمار الکترونیک صنعت (MES)** است. تصاویر برای نمایش در مستندات، README مخزن، آموزش‌های فنی و محتوای رسانه‌ای تهیه شده‌اند.
+<p align="center">
+  <img src="GitHub-Assets/MES-Hero-Banner.svg" width="82%" alt="MES — Varistor Guide">
+</p>
 
-This directory contains the educational visuals for the Varistor Selection and Application Guide, together with MES-branded graphic assets for documentation, repository pages, technical tutorials, and media publications.
+این پوشه شامل تصاویر آموزشی راهنمای انتخاب و کاربرد وریستور و مجموعه فایل‌های گرافیکی اختصاصی برند **معمار الکترونیک صنعت (MES)** است. تصاویر این بخش برای مستندات فنی، README مخزن و محتوای آموزشی قابل استفاده هستند.
+
+This directory contains the educational visuals for the Varistor Selection and Application Guide, together with MES-branded SVG assets for technical documentation, repository pages, and educational content.
+
+<p align="center">
+  <img src="GitHub-Assets/MES-Status-Strip.svg" width="76%" alt="MES Engineering Resources">
+</p>
 
 ## ساختار پوشه | Directory Structure
 
@@ -27,17 +35,25 @@ Images/
     └── README.md
 ```
 
+<p align="center">
+  <img src="GitHub-Assets/MES-Divider.svg" width="72%" alt="MES Divider">
+</p>
+
 ## تصاویر آموزشی وریستور | Varistor Educational Images
 
-در ریشه این پوشه، یک تصویر از نسخه فارسی راهنما و شش اینفوگرافیک آموزشی قرار دارد. برای مشاهده هر تصویر در اندازه اصلی، روی پیش‌نمایش کوچک و وسط‌چین آن کلیک کنید.
+در این بخش، جلد راهنمای فارسی و شش اینفوگرافیک آموزشی با اندازه پیش‌نمایش کوچک‌تر و به‌صورت وسط‌چین نمایش داده شده‌اند. برای مشاهده یا دریافت تصویر با وضوح اصلی، روی هر پیش‌نمایش کلیک کنید.
 
-The folder root contains the Persian guide cover and six educational infographics. The previews are centered and reduced in size; click any preview to open the full-size image.
+The Persian guide cover and six educational infographics are displayed below as compact, centered previews. Click any preview to open the original full-size image.
 
-### 1. نسخه تصویری راهنمای فارسی | Persian Guide Cover
+<p align="center">
+  <img src="GitHub-Assets/MES-Section-Header.svg" width="68%" alt="Varistor Educational Images">
+</p>
+
+### 1. جلد راهنمای فارسی | Persian Guide Cover
 
 <p align="center">
   <a href="MES-Varistor-Guide-FA%20v1_4.jpg">
-    <img src="MES-Varistor-Guide-FA%20v1_4.jpg" width="45%" alt="جلد راهنمای فارسی وریستور">
+    <img src="MES-Varistor-Guide-FA%20v1_4.jpg" width="30%" alt="جلد راهنمای فارسی وریستور">
   </a>
 </p>
 
@@ -47,7 +63,7 @@ The folder root contains the Persian guide cover and six educational infographic
 
 <p align="center">
   <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg">
-    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="42%" alt="معرفی وریستور و حفاظت در برابر اضافه‌ولتاژ">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="30%" alt="معرفی وریستور و حفاظت در برابر اضافه‌ولتاژ">
   </a>
 </p>
 
@@ -57,7 +73,7 @@ The folder root contains the Persian guide cover and six educational infographic
 
 <p align="center">
   <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg">
-    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="42%" alt="ساختار و عملکرد وریستور">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="30%" alt="ساختار و عملکرد وریستور">
   </a>
 </p>
 
@@ -67,7 +83,7 @@ The folder root contains the Persian guide cover and six educational infographic
 
 <p align="center">
   <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg">
-    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="42%" alt="پارامترهای دیتاشیت وریستور">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="30%" alt="پارامترهای دیتاشیت وریستور">
   </a>
 </p>
 
@@ -77,7 +93,7 @@ The folder root contains the Persian guide cover and six educational infographic
 
 <p align="center">
   <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg">
-    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="42%" alt="ولتاژ کاری و ولتاژ کلمپینگ">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="30%" alt="ولتاژ کاری و ولتاژ کلمپینگ">
   </a>
 </p>
 
@@ -87,7 +103,7 @@ The folder root contains the Persian guide cover and six educational infographic
 
 <p align="center">
   <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg">
-    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="42%" alt="جریان ضربه‌ای و انرژی قابل جذب">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="30%" alt="جریان ضربه‌ای و انرژی قابل جذب">
   </a>
 </p>
 
@@ -97,17 +113,77 @@ The folder root contains the Persian guide cover and six educational infographic
 
 <p align="center">
   <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg">
-    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="42%" alt="ابعاد و قطر وریستور">
+    <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="30%" alt="ابعاد و قطر وریستور">
   </a>
 </p>
 
 بررسی نقش ابعاد و قطر دیسک در انتخاب قطعه و مقایسه گزینه‌های مختلف.
 
+<p align="center">
+  <img src="GitHub-Assets/MES-Divider.svg" width="72%" alt="MES Divider">
+</p>
+
 ## فایل‌های گرافیکی برند MES | MES GitHub Graphic Assets
 
-پوشه [GitHub-Assets](GitHub-Assets/) شامل فایل‌های SVG برای طراحی و یکپارچه‌سازی ظاهر READMEها و صفحات مخازن GitHub است. این فایل‌ها شامل سربرگ، عنوان بخش، کارت معرفی پروژه، نوار وضعیت، جداکننده، فوتر و لوگوی متحرک MES هستند.
+پوشه [GitHub-Assets](GitHub-Assets/) شامل فایل‌های SVG برای یکپارچه‌سازی هویت بصری READMEها و صفحات مخازن GitHub است. پیش‌نمایش‌ها در این قسمت نیز وسط‌چین و با اندازه کنترل‌شده نمایش داده می‌شوند.
 
-The [GitHub-Assets](GitHub-Assets/) subdirectory contains SVG graphics for consistent MES branding across GitHub repositories and README files: a hero banner, section header, project card, status strip, divider, footer, and animated logo.
+The [GitHub-Assets](GitHub-Assets/) directory contains SVG graphics for consistent MES branding across GitHub repositories and README files. The previews below are also centered and displayed at reduced sizes.
+
+### سربرگ اصلی | Hero Banner
+
+<p align="center">
+  <a href="GitHub-Assets/MES-Hero-Banner.svg">
+    <img src="GitHub-Assets/MES-Hero-Banner.svg" width="78%" alt="MES Hero Banner">
+  </a>
+</p>
+
+### عنوان بخش | Section Header
+
+<p align="center">
+  <a href="GitHub-Assets/MES-Section-Header.svg">
+    <img src="GitHub-Assets/MES-Section-Header.svg" width="68%" alt="MES Section Header">
+  </a>
+</p>
+
+### کارت معرفی پروژه | Project Card
+
+<p align="center">
+  <a href="GitHub-Assets/MES-Project-Card.svg">
+    <img src="GitHub-Assets/MES-Project-Card.svg" width="68%" alt="MES Project Card">
+  </a>
+</p>
+
+### نوار وضعیت | Status Strip
+
+<p align="center">
+  <a href="GitHub-Assets/MES-Status-Strip.svg">
+    <img src="GitHub-Assets/MES-Status-Strip.svg" width="72%" alt="MES Status Strip">
+  </a>
+</p>
+
+### جداکننده | Divider
+
+<p align="center">
+  <a href="GitHub-Assets/MES-Divider.svg">
+    <img src="GitHub-Assets/MES-Divider.svg" width="72%" alt="MES Divider">
+  </a>
+</p>
+
+### فوتر پایانی | Thank You Footer
+
+<p align="center">
+  <a href="GitHub-Assets/MES-Thank-You-Footer.svg">
+    <img src="GitHub-Assets/MES-Thank-You-Footer.svg" width="78%" alt="MES Thank You Footer">
+  </a>
+</p>
+
+### لوگوی متحرک MES | MES Animated Logo
+
+<p align="center">
+  <a href="GitHub-Assets/MES_Animated_Logo_640x480.svg">
+    <img src="GitHub-Assets/MES_Animated_Logo_640x480.svg" width="110" alt="MES Animated Logo">
+  </a>
+</p>
 
 | فایل | کاربرد |
 |---|---|
@@ -120,45 +196,59 @@ The [GitHub-Assets](GitHub-Assets/) subdirectory contains SVG graphics for consi
 | [MES_Animated_Logo_640x480.svg](GitHub-Assets/MES_Animated_Logo_640x480.svg) | لوگوی متحرک برند MES |
 | [README.md](GitHub-Assets/README.md) | راهنمای مستقل فایل‌های گرافیکی و نمونه کد استفاده |
 
-برای مشاهده پیش‌نمایش، جزئیات فنی و نمونه کدهای استفاده از هر فایل، به [README پوشه GitHub-Assets](GitHub-Assets/README.md) مراجعه کنید.
+برای مشاهده جزئیات فنی و نمونه کدهای استفاده از هر فایل، به [README پوشه GitHub-Assets](GitHub-Assets/README.md) مراجعه کنید.
 
-For previews, technical notes, and usage examples, see the [GitHub-Assets README](GitHub-Assets/README.md).
+For technical details and usage examples, see the [GitHub-Assets README](GitHub-Assets/README.md).
+
+<p align="center">
+  <img src="GitHub-Assets/MES-Divider.svg" width="72%" alt="MES Divider">
+</p>
 
 ## نحوه استفاده در README مخزن | Using Images in Repository READMEs
 
 از آنجا که این فایل در پوشه `Images` قرار دارد، مسیر تصاویر آموزشی در همین README به‌صورت نسبی و بدون پیشوند `Images/` نوشته شده است. اما برای استفاده از همین تصاویر در README ریشه مخزن، باید نام پوشه `Images/` به ابتدای مسیر اضافه شود.
 
-Because this README is located inside `Images/`, its image links are relative to the current directory. When referencing these files from the repository-root README, prefix the paths with `Images/`.
+Because this README is located inside `Images/`, image links are relative to the current directory. When referencing these files from the repository-root README, prefix the paths with `Images/`.
 
-نمونه برای README ریشه مخزن:
+**نمونه برای README ریشه مخزن | Repository-root README:**
 
-```markdown
-![Varistor Datasheet Parameters](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg)
+```html
+<p align="center">
+  <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="30%" alt="Varistor Datasheet Parameters">
+</p>
 ```
 
-نمونه برای همین README در پوشه Images:
+**نمونه برای همین README در پوشه Images | This Images README:**
 
-```markdown
-![Varistor Datasheet Parameters](Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg)
+```html
+<p align="center">
+  <img src="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="30%" alt="Varistor Datasheet Parameters">
+</p>
 ```
 
----
+<p align="center">
+  <img src="GitHub-Assets/MES-Divider.svg" width="72%" alt="MES Divider">
+</p>
 
 ## تصاویر و دیاگرام‌های راهنما
 
-این بخش، پیش‌نمایش فشرده و وسط‌چین مجموعه اینفوگرافیک‌های آموزشی وریستور را در یکجا نمایش می‌دهد. برای مشاهده هر تصویر با وضوح و اندازه اصلی، روی آن کلیک کنید.
+این بخش شامل پیش‌نمایش فشرده مجموعه اینفوگرافیک‌های آموزشی وریستور است. همه تصاویر وسط‌چین هستند و با انتخاب هر تصویر، فایل اصلی باز می‌شود.
 
-This section provides a compact, centered overview of the six educational infographics. Click any thumbnail to view the original image.
+This section provides a compact, centered overview of the six educational infographics. Select any thumbnail to open the original image.
 
 <p align="center">
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="24%" alt="Varistor infographic 00"></a>
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="24%" alt="Varistor infographic 01"></a>
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="24%" alt="Varistor infographic 02"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="17%" alt="Varistor infographic 00"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="17%" alt="Varistor infographic 01"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="17%" alt="Varistor infographic 02"></a>
 </p>
 <p align="center">
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="24%" alt="Varistor infographic 03"></a>
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="24%" alt="Varistor infographic 04"></a>
-  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="24%" alt="Varistor infographic 05"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="17%" alt="Varistor infographic 03"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="17%" alt="Varistor infographic 04"></a>
+  <a href="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg"><img src="Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="17%" alt="Varistor infographic 05"></a>
+</p>
+
+<p align="center">
+  <img src="GitHub-Assets/MES-Thank-You-Footer.svg" width="82%" alt="Thank you for visiting MES">
 </p>
 
 ---
@@ -176,5 +266,5 @@ This section provides a compact, centered overview of the six educational infogr
 - GitHub: [MEMAR-ELECTRONIC-SANAT](https://github.com/MEMAR-ELECTRONIC-SANAT)
 
 <p align="center">
-  <img src="GitHub-Assets/MES_Animated_Logo_640x480.svg" width="110" alt="MES Animated Logo">
+  <img src="GitHub-Assets/MES_Animated_Logo_640x480.svg" width="100" alt="MES Animated Logo">
 </p>
