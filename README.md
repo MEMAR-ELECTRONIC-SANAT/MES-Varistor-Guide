@@ -1,7 +1,3 @@
-<p align="center">
-
-</p>
-
 # راهنمای جامع انتخاب و کاربرد وریستور | Varistor Guide
 
 <p align="center">
@@ -57,31 +53,59 @@
 
 ### معرفی وریستور و حفاظت در برابر اضافه‌ولتاژ
 
-[![معرفی وریستور و حفاظت](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg)](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg)
+<p align="center">
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg">
+    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="65%" alt="معرفی وریستور و حفاظت">
+  </a>
+</p>
 
 ### ساختار و عملکرد وریستور
 
-[![ساختار و عملکرد وریستور](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg)](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg)
+<p align="center">
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg">
+    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="65%" alt="ساختار و عملکرد وریستور">
+  </a>
+</p>
 
 ### پارامترهای دیتاشیت
 
-[![پارامترهای دیتاشیت وریستور](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg)](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg)
+<p align="center">
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg">
+    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="65%" alt="پارامترهای دیتاشیت وریستور">
+  </a>
+</p>
 
 ### ولتاژ کاری و ولتاژ کلمپینگ
 
-[![ولتاژ کاری و کلمپینگ](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg)](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg)
+<p align="center">
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg">
+    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="65%" alt="ولتاژ کاری و کلمپینگ">
+  </a>
+</p>
 
 ### جریان ضربه‌ای و انرژی قابل جذب
 
-[![جریان ضربه‌ای و انرژی](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg)](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg)
+<p align="center">
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg">
+    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="65%" alt="جریان ضربه‌ای و انرژی">
+  </a>
+</p>
 
 ### ابعاد و قطر وریستور
 
-[![ابعاد و قطر وریستور](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg)](Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg)
+<p align="center">
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg">
+    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="65%" alt="ابعاد و قطر وریستور">
+  </a>
+</p>
 
 ### نسخه تصویری راهنمای فارسی
 
-[![راهنمای فارسی وریستور](Images/MES-Varistor-Guide-FA%20v1_4.jpg)](Images/MES-Varistor-Guide-FA%20v1_4.jpg)
+<p align="center">
+  <a href="Images/MES-Varistor-Guide-FA%20v1_4.jpg">
+    <img src="Images/MES-Varistor-Guide-FA%20v1_4.jpg" width="85%" alt="راهنمای فارسی وریستور">
+  </a>
+</p>
 
 ---
 
@@ -95,15 +119,15 @@
 
 ## تهیه و تدوین
 
-**معمار الکترونیک صنعت**\\
- **MEMAR ELECTRONIC SANAT (MES)**
+**معمار الکترونیک صنعت**  
+**MEMAR ELECTRONIC SANAT (MES)**
 
 همراه شما در مسیر طراحی و ساخت مدارهای مطمئن
 
-طراحی و توسعه مدارهای الکترونیکی، PCB، سیستم‌های embedded و ابزارهای پیکربندی میکروکنترلر.
+طراحی و توسعه مدارهای الکترونیکی، PCB، سیستم‌های Embedded و ابزارهای پیکربندی میکروکنترلر.
 
-- کانال تلگرام: [https://t.me/Memar_Electronic](https://t.me/Memar_Electronic)
-- پیج اینستاگرام: [https://www.instagram.com/Memar.Electronic](https://www.instagram.com/Memar.Electronic)
+- کانال تلگرام: [Memar Electronic](https://t.me/Memar_Electronic)
+- پیج اینستاگرام: [Memar Electronic](https://www.instagram.com/Memar.Electronic)
 - GitHub: [MEMAR-ELECTRONIC-SANAT](https://github.com/MEMAR-ELECTRONIC-SANAT)
 
 <p align="center">
