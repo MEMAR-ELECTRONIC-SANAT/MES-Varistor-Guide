@@ -1,120 +1,84 @@
-# راهنمای جامع انتخاب و کاربرد وریستور | Varistor Guide
+# راهنمای جامع انتخاب و کاربرد وریستور | Varistor Selection & Application Guide
 
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Hero-Banner.svg" width="100%" alt="MEMAR ELECTRONIC SANAT — MES">
 </p>
 
 <p align="center">
-  <strong>انتخاب زبان / Language:</strong>
+  <strong>انتخاب زبان / Language / 语言:</strong><br>
   <a href="README.md">🇮🇷 فارسی</a> |
-  <a href="README_EN.md">🇬🇧 English</a>
+  <a href="README_EN.md">🇬🇧 English</a> |
+  <a href="README_ZH.md">🇨🇳 简体中文</a>
 </p>
 
-## MEMAR ELECTRONIC SANAT (MES)
+## معرفی راهنما
 
-**از پارامترهای دیتاشیت تا طراحی عملی حفاظت**
+**از پارامترهای دیتاشیت تا طراحی عملی حفاظت در برابر اضافه‌ولتاژ**
 
-در این راهنمای آموزشی، با ساختار و عملکرد وریستور، منحنی مشخصه جریان–ولتاژ (I–V)، پارامترهای کلیدی دیتاشیت و اصول انتخاب وریستور مناسب برای حفاظت تجهیزات الکترونیکی آشنا می‌شویم.
+این مخزن به معرفی وریستور، به‌ویژه **وریستور اکسید فلزی (MOV)**، ساختار و سازوکار عملکرد آن و کاربردش در مدارهای حفاظت در برابر اضافه‌ولتاژهای گذرا می‌پردازد. محتوای راهنما برای مهندسان، طراحان الکترونیک، دانشجویان و علاقه‌مندان به طراحی مدار تهیه شده است.
 
 <p align="center">
-  <img src="Images/GitHub-Assets/MES-Section-Header.svg" width="100%" alt="Varistor Guide — Technical Topics">
+  <img src="Images/GitHub-Assets/MES-Section-Header.svg" width="90%" alt="سرفصل‌های راهنمای وریستور">
 </p>
 
 ## سرفصل‌های آموزشی
 
-- ساختار و نحوه عملکرد وریستور
-- منحنی مشخصه I–V
-- بررسی و تفسیر پارامترهای دیتاشیت
-- ولتاژ کاری و ولتاژ کلمپینگ
-- جریان ضربه‌ای و انرژی قابل جذب
-- بررسی ابعاد و قطر وریستور
-- مثال‌های عددی و انتخاب عملی قطعه
-- اصول استفاده از وریستور در مدارهای حفاظتی
+1. وریستور چیست و چگونه از مدار محافظت می‌کند؟
+2. ساختار MOV و سازوکار فیزیکی دانه‌ها و مرزدانه‌های اکسید روی (ZnO)
+3. منحنی مشخصه ولتاژ–جریان (V–I) و نواحی عملکرد
+4. پارامترهای مهم دیتاشیت و روش تفسیر آن‌ها
+5. انواع وریستور و مقایسه MOV با TVS و GDT
+6. کاربردها و اصول پیاده‌سازی مدارهای حفاظتی
+7. چهار معیار کلیدی انتخاب: ولتاژ کاری پیوسته، ولتاژ کلمپینگ، جریان ضربه‌ای و انرژی
+8. مثال عملی انتخاب وریستور برای برق شهر
+9. مدل‌های پیشنهادی برای ولتاژهای متداول DC و سیستم سه‌فاز 380 ولت
+10. جمع‌بندی، واژه‌نامه و نکات ایمنی
+
+## دریافت مستندات
+
+- 📘 [دانلود راهنمای فارسی وریستور — PDF، نسخه 1.4](./MES-Varistor-Guide-FA%20v1_4.pdf)
+- 🖼️ [مشاهده تصاویر و اینفوگرافیک‌های آموزشی](./Images/README.md)
+- 🎨 [مشاهده مجموعه فایل‌های گرافیکی MES](./Images/GitHub-Assets/README.md)
+
+> **وضعیت فایل‌ها:** در حال حاضر فایل PDF فارسی در شاخه اصلی مخزن موجود است. نسخه PDF انگلیسی در این شاخه قرار نگرفته است؛ بنابراین برای جلوگیری از ایجاد پیوند خراب، لینک دانلود آن در این README درج نشده است.
+
+## چهار معیار اصلی انتخاب وریستور
+
+| پارامتر | مفهوم و نکته انتخاب |
+|---|---|
+| **MCOV** — حداکثر ولتاژ کاری پیوسته | باید از بیشینه ولتاژ عادی مدار، با درنظرگرفتن تلرانس و شرایط شبکه، بیشتر باشد. |
+| **Clamping Voltage (V₍C₎)** — ولتاژ کلمپینگ | ولتاژ باقی‌مانده روی وریستور هنگام عبور جریان ضربه‌ای است؛ باید با تحمل ولتاژ تجهیز حفاظت‌شونده سازگار باشد. |
+| **Peak Surge Current (Iₚₑₐₖ)** — جریان ضربه‌ای بیشینه | باید از جریان ضربه‌ای مورد انتظار در محل نصب و برای شکل موج آزمون مربوط بیشتر باشد. |
+| **Energy Rating (J)** — انرژی قابل جذب | باید با انرژی و شکل موج گذرا و تعداد تکرار مورد انتظار سازگار باشد. |
+
+علاوه بر این چهار معیار، ولتاژ وریستور در جریان آزمون مشخص (مانند V₁mA)، ظرفیت خازنی، ابعاد دیسک، دمای محیط، فاصله‌های ایزولاسیون و هماهنگی با فیوز یا قطع‌کن حرارتی نیز باید بررسی شوند.
+
+## نکات مهم طراحی و ایمنی
+
+- وریستور معمولاً به‌صورت **موازی با ورودی یا بار حفاظت‌شونده** قرار می‌گیرد.
+- ولتاژ کلمپینگ مقدار ثابتی مستقل از جریان نیست؛ مقدار آن به جریان ضربه‌ای و شکل موج آزمون وابسته است.
+- برای مدارهای متصل به برق شهر، هماهنگی وریستور با فیوز یا قطع‌کن حرارتی ضروری است. خرابی وریستور ممکن است به اتصال کوتاه و افزایش دما منجر شود.
+- انتخاب قطعه باید بر اساس دیتاشیت دقیق همان سازنده و شماره فنی انجام شود؛ مقایسه اعداد بدون توجه به شکل موج و شرایط آزمون معتبر نیست.
+- برای حفاظت در برابر صاعقه و گذراهای پرانرژی، ممکن است به طراحی چندمرحله‌ای و هماهنگی MOV، TVS و GDT نیاز باشد.
+- مثال‌ها و مدل‌های معرفی‌شده در راهنما جنبه آموزشی دارند و جایگزین ارزیابی ایمنی، استانداردهای محصول و بررسی دیتاشیت قطعه نهایی نیستند.
+
+## تصاویر و دیاگرام‌های راهنما
+
+تصاویر آموزشی موجود در مخزن فعلاً به زبان فارسی هستند. برای مشاهده پیش‌نمایش‌ها و دریافت فایل‌های اصلی به پوشه تصاویر مراجعه کنید.
 
 <p align="center">
-  <img src="Images/GitHub-Assets/MES-Project-Card.svg" width="100%" alt="MES technical guide and project resources">
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="30%" alt="معرفی وریستور"></a>
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="30%" alt="ساختار و عملکرد"></a>
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="30%" alt="پارامترهای دیتاشیت"></a>
 </p>
-
-## دریافت فایل آموزشی
-
-📘 [دانلود راهنمای وریستور نسخه فارسی (PDF)](./MES-Varistor-Guide-FA%20v1_4.pdf)
-
-📘 [دانلود راهنمای وریستور نسخه انگلیسی (PDF)](./MES-Varistor-Guide-EN%20v1_4.pdf)
-
-### مشاهده نسخه HTML تعاملی
-
-🌐 [**اجرای راهنمای وریستور فارسی و انگلیسی (HTML نسخه 1.7)**](./MES-Varistor-Guide-FA-EN%20v1_7.html) — فایل را در مرورگر باز کنید.
-
----
-
-## تصاویر آموزشی وریستور
-
-تصاویر زیر بخش‌هایی از آموزش و نکات کاربردی انتخاب و استفاده از وریستور را نمایش می‌دهند. برای مشاهده تصویر در اندازه اصلی، روی آن کلیک کنید.
-
-### معرفی وریستور و حفاظت در برابر اضافه‌ولتاژ
-
 <p align="center">
-  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg">
-    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-00.jpg" width="65%" alt="معرفی وریستور و حفاظت">
-  </a>
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="30%" alt="ولتاژ کاری و کلمپینگ"></a>
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="30%" alt="جریان ضربه‌ای و انرژی"></a>
+  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg"><img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="30%" alt="ابعاد و قطر وریستور"></a>
 </p>
-
-### ساختار و عملکرد وریستور
-
-<p align="center">
-  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg">
-    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-01.jpg" width="65%" alt="ساختار و عملکرد وریستور">
-  </a>
-</p>
-
-### پارامترهای دیتاشیت
-
-<p align="center">
-  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg">
-    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-02.jpg" width="65%" alt="پارامترهای دیتاشیت وریستور">
-  </a>
-</p>
-
-### ولتاژ کاری و ولتاژ کلمپینگ
-
-<p align="center">
-  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg">
-    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-03.jpg" width="65%" alt="ولتاژ کاری و کلمپینگ">
-  </a>
-</p>
-
-### جریان ضربه‌ای و انرژی قابل جذب
-
-<p align="center">
-  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg">
-    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-04.jpg" width="65%" alt="جریان ضربه‌ای و انرژی">
-  </a>
-</p>
-
-### ابعاد و قطر وریستور
-
-<p align="center">
-  <a href="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg">
-    <img src="Images/Varistor%20Protection_%20MES%20Persian%20Infographic-05.jpg" width="65%" alt="ابعاد و قطر وریستور">
-  </a>
-</p>
-
-### نسخه تصویری راهنمای فارسی
-
-<p align="center">
-  <a href="Images/MES-Varistor-Guide-FA%20v1_4.jpg">
-    <img src="Images/MES-Varistor-Guide-FA%20v1_4.jpg" width="85%" alt="راهنمای فارسی وریستور">
-  </a>
-</p>
-
----
 
 <p align="center">
   <img src="Images/GitHub-Assets/MES-Divider.svg" width="100%" alt="MES Divider">
-</p>
-
-<p align="center">
-  <img src="Images/GitHub-Assets/MES-Status-Strip.svg" width="100%" alt="MES Engineering Workspace">
 </p>
 
 ## تهیه و تدوین
@@ -124,16 +88,10 @@
 
 همراه شما در مسیر طراحی و ساخت مدارهای مطمئن
 
-طراحی و توسعه مدارهای الکترونیکی، PCB، سیستم‌های Embedded و ابزارهای پیکربندی میکروکنترلر.
-
 - کانال تلگرام: [Memar Electronic](https://t.me/Memar_Electronic)
 - پیج اینستاگرام: [Memar Electronic](https://www.instagram.com/Memar.Electronic)
 - GitHub: [MEMAR-ELECTRONIC-SANAT](https://github.com/MEMAR-ELECTRONIC-SANAT)
 
 <p align="center">
-  <img src="Images/GitHub-Assets/MES-Thank-You-Footer.svg" width="100%" alt="Thank you for visiting MES">
-</p>
-
-<p align="center">
-  <img src="Images/GitHub-Assets/MES_Animated_Logo_640x480.svg" width="140" alt="MES Animated Logo">
+  <img src="Images/GitHub-Assets/MES_Animated_Logo_640x480.svg" width="120" alt="MES Animated Logo">
 </p>
